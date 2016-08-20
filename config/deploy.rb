@@ -12,7 +12,7 @@ set :repo_url, 'git@example.com:ecuSinner/raddit.git'
 
 set :passenger_restart_with_touch, true
 
-set :deploy_to, '/home/deivis/notes'
+set :deploy_to, '/home/deivis/raddit'
 
 set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
