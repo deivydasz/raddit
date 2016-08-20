@@ -2,7 +2,7 @@
 lock '3.6.0'
 
 set :application, 'raddit'
-set :repo_url, 'git@example.com:ecuSinner/raddit.git'
+set :repo_url, 'git@github.com:ecuSinner/raddit.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
